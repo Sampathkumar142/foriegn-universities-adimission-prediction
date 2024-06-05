@@ -7,51 +7,18 @@ This project aims to predict the admission chances of students applying to forei
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Project Structure](#project-structure)
-3. [Data Description](#data-description)
-4. [Modeling](#modeling)
-5. [Google Vertex AI Integration](#google-vertex-ai-integration)
-6. [Results](#results)
-7. [Usage](#usage)
-8. [Contributing](#contributing)
-9. [License](#license)
+2. [Data Description](#data-description)
+3. [Modeling](#modeling)
+4. [Google Vertex AI Integration](#google-vertex-ai-integration)
+5. [Results](#results)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Introduction
 
 The objective of this project is to develop a predictive model that can accurately determine the likelihood of a student's admission to a foreign university based on their profile. The models are trained and deployed using Google Vertex AI, taking advantage of its robust infrastructure and machine learning capabilities.
 
-## Project Structure
-
-The project directory is organized as follows:
-
-```
-foreign-university-admission-prediction/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   ├── data_exploration.ipynb
-│   ├── model_training.ipynb
-│   └── vertex_ai_deployment.ipynb
-│
-├── scripts/
-│   ├── data_preprocessing.py
-│   ├── train_model.py
-│   └── deploy_model.py
-│
-├── models/
-│   └── saved_models/
-│
-├── results/
-│   ├── metrics/
-│   └── plots/
-│
-├── requirements.txt
-├── README.md
-└── config.yaml
-```
 
 ## Data Description
 
